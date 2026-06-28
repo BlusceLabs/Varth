@@ -1,0 +1,16 @@
+# Global fallback — all PRs require at least one maintainer review
+* @getvarth/core
+
+# Ferment subsystem
+src/extensions/ferment/ @getvarth/core
+src/ferment/ @getvarth/core
+
+# Teleport subsystem
+src/modes/teleport/ @getvarth/core
+
+# CI and repo config
+.github/ @getvarth/core
+
+# Docs
+docs/ @getvarth/core
+*.md @getvarth/core
